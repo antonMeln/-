@@ -1,3 +1,4 @@
+
 #include "stdafx.h"
 #include <iostream>
 #include <vector>
@@ -60,7 +61,9 @@ int main()
 			temp.clear();
 		}
 		if (CrossCounter % 2 != 0)
-			cout << CrossCounter << endl;
+			PointsInside++;
 	}
+	cout << PointsInside << endl;
     return 0;
 }
+
